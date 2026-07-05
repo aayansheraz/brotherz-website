@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-5">
         <div className="flex flex-wrap items-center justify-between gap-6 pb-10 border-b border-white/10">
           <div className="flex items-center gap-4">
-            <img src="/img/logo.png" alt="Brotherz" className="h-12 w-auto" draggable={false} />
+            <img src="img/logo.png" alt="Brotherz" className="h-12 w-auto" draggable={false} />
             <p className="text-white/70 text-sm max-w-xs">
               Fresh, fast & full of flavor.
               <br />

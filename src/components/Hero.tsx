@@ -73,7 +73,7 @@ export default function Hero() {
           </p>
 
           <img
-            src="/img/logo.png"
+            src="img/logo.png"
             alt="Brotherz"
             draggable={false}
             className="animate-float"

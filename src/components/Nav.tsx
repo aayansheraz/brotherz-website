@@ -33,7 +33,7 @@ export default function Nav() {
       >
         <a href="#hero" className="flex items-center no-underline">
           <img
-            src="/img/logo.png"
+            src="img/logo.png"
             alt="Brotherz"
             className="h-9 w-auto transition-transform duration-300 hover:scale-105 hover:-rotate-2"
             draggable={false}

@@ -34,7 +34,7 @@ const CARDS = [
     desc: 'Cheese sauce + crispy chicken + special drizzle. The real deal, straight from our kitchen.',
     price: 'Rs. 450',
     tag: 'FAN FAVE',
-    photo: '/img/loaded-fries.jpg',
+    photo: 'img/loaded-fries.jpg',
     accent: 'var(--green)',
   },
 ]
