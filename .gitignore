@@ -12,8 +12,6 @@ dist
 dist-ssr
 *.local
 
-# AI tool local state (not project code, don't commit)
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -24,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# AI Tooling & Local Config Exclusions
+.mcp.json
+.antigravity/
+.gemini/
+.claude/

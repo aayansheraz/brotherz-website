@@ -1,32 +1,50 @@
-# Brotherz — Restaurant Website
+# Brotherz Pk — Restaurant Commercial Landing Page
 
-**[Live demo →](https://aayansheraz.github.io/brotherz-website/)**
+[![CI Build](https://github.com/aayansheraz/brotherz-website/actions/workflows/ci.yml/badge.svg)](https://github.com/aayansheraz/brotherz-website/actions/workflows/ci.yml)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Interactive_Site-00C853?style=flat&logo=vercel)](https://aayansheraz.github.io/brotherz-website/)
+[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_v4-38BDF8?style=flat&logo=tailwindcss)](https://tailwindcss.com/)
 
-![Brotherz screenshot](.github/screenshot.png)
+**[🚀 View Live Commercial Restaurant Web App →](https://aayansheraz.github.io/brotherz-website/)**
 
-Scroll-animated landing page for **Brotherz Pk** (Okara). React + TypeScript + Vite + Tailwind CSS v4 + lucide-react.
+![Brotherz Screenshot](.github/screenshot.png)
 
-## Run locally
+A high-converting scroll-animated commercial website built for **Brotherz Pk**, a restaurant in Okara. Features an interactive hero carousel, bestseller showcase grid, interactive menu tabs, and location / contact info routing.
+
+Built with **React + TypeScript + Vite + Tailwind CSS v4 + Lucide Icons**.
+
+---
+
+## 🌟 Key Features
+
+- **Hero Interactive Carousel:** Full-width animated carousel showcasing featured dining specials.
+- **Bestsellers Showcase:** Dynamic item cards with 3D Microsoft Fluent vector assets.
+- **Categorized Menu System:** Modular menu configuration stored in `src/data/menu.ts`.
+- **Automated CI/CD:** GitHub Action build verification pipeline ensuring reliable static deployments.
+
+---
+
+## 💻 Local Development Setup
 
 ```bash
+# Install dependencies
 npm install
-npm run dev      # http://localhost:5173
+
+# Run local development server
+npm run dev
 ```
 
-## Build for hosting
+---
+
+## 📦 Production Build
 
 ```bash
 npm run build
 ```
 
-Upload the contents of `dist/` to any static host (same as your shared hosting — the whole site is static files).
+---
 
-## Things to customize
+## 📄 License
 
-- **Prices & menu items** → [src/data/menu.ts](src/data/menu.ts). Prices are realistic placeholders — confirm real ones with the restaurant before launch.
-- **Phone / address / hours / links** → the `INFO` object at the bottom of [src/data/menu.ts](src/data/menu.ts).
-- **Hero carousel items** → the `ITEMS` array in [src/components/Hero.tsx](src/components/Hero.tsx).
-- **Bestseller photos** → `CARDS` in [src/components/Bestsellers.tsx](src/components/Bestsellers.tsx) (currently Unsplash food photos; swap for real Brotherz shots when available — real photos will sell it even harder).
-- **Brand colors** → CSS variables in [src/index.css](src/index.css).
-
-3D food icons are Microsoft Fluent Emoji (MIT licensed), bundled in `public/img/`.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
